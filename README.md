@@ -4,7 +4,7 @@ This is a single page project that consumes a rapid quotes api to show quotes of
 An individual can choose a quote to reade aor get motivated depending on their moods and feelings.
 
 ## Tech Stack.
-The tech stack used so far is python, flask framework, HTML, CSS, JavaScript, Git and GitHub for version control.
-Json and requests for api data conversion. 
+The tech stack used so far is Python, Flask framework, HTML, CSS, JavaScript. Git and GitHub for version control.
+Json and Requests for api data conversion and processing. 
 Railway and GitHub for deployment.
-Quote Rapid API that allows 1000 requests per month for free.
+Rapid API Famous Quotes that allows up to 1000 requests per month for freemium. https://rapidapi.com/saicoder/api/famous-quotes4
