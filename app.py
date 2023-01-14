@@ -25,7 +25,7 @@ def random_quote():
     querystring = {"category":"all","count":"12"}
 
     headers = {
-        "X-RapidAPI-Key":  os.environ.get('API_KEY'),
+        "X-RapidAPI-Key":  "906c5d271cmshde75a8b1327917fp1f9578jsn5c7e41534460",
         "X-RapidAPI-Host": "famous-quotes4.p.rapidapi.com"
     }
 
@@ -55,7 +55,7 @@ def list_categories():
     querystring = {"category":"all","count":"12"}
 
     headers = {
-        "X-RapidAPI-Key":  os.environ.get('API_KEY'),
+        "X-RapidAPI-Key":  "906c5d271cmshde75a8b1327917fp1f9578jsn5c7e41534460",
         "X-RapidAPI-Host": "famous-quotes4.p.rapidapi.com"
     }
 
@@ -87,7 +87,7 @@ def select_categories(query):
     querystring = {"category":"{}".format(query),"count":"12"}
 
     headers = {
-        "X-RapidAPI-Key":  os.environ.get('API_KEY'),
+        "X-RapidAPI-Key":  "906c5d271cmshde75a8b1327917fp1f9578jsn5c7e41534460",
         "X-RapidAPI-Host": "famous-quotes4.p.rapidapi.com"
     }
 
